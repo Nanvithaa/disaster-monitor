@@ -42,8 +42,3 @@ Implementation steps will be added as the backend and frontend are built:
 - Frontend: run React locally and deploy to Firebase Hosting
 - Data: later migration to BigQuery + Cloud Storage for scalable queries
 
-## Notes
-
-- Large raw datasets and model binaries should not be committed to Git.
-- Only curated “web-ready” artifacts may be stored under `outputs/` if kept small.
-
